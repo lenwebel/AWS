@@ -1,4 +1,4 @@
-## Regions And Zones
+# Regions And Zones
 
 Local zones - Close to large population industry centres.
 
@@ -8,16 +8,16 @@ Direct Connect - direct to AWS bypassing the Internet. locations worldwide
 
 Cloudfront - Webservice like a CDN edge locations and regional edge caches speeds up content delivery regional edge caches.
 
-## Compute Services
+# Compute Services
 
 Develop deploy scale compute services
 
-EC2 Compute – webservice.
-EC2 auto scale uses triggers to scale.
-ELB (elastic load balancing)
-EC2 Container Services run on Docker Containers, managed cluster on EC2 instance or Fargate.
-Fargate – serverless PAYG compute engine compatible with EKS (elastic Kubernetes service)
-EKS – managed Kubernetes service which makes it to run Kubernetes run on EC2 and fargate, it manages Kubernes
+`EC2 Compute` webservice.
+`EC2 auto scale` uses triggers to scale.
+`ELB` (elastic load balancing)
+`EC2` Container Services run on Docker Containers, managed cluster on EC2 instance or Fargate.
+`Fargate` serverless PAYG compute engine compatible with EKS (elastic Kubernetes service)
+`EKS` managed Kubernetes service which makes it to run Kubernetes run on EC2 and fargate, it manages Kubernes
 Lambda - serverless computing.
 
 # COMPUTE EC2
@@ -60,9 +60,12 @@ Lambda - serverless computing.
 - Both
 
 **Properties that define scaling and instances.**
-Minimum  
-Maximum  
-Desired Capacity. >= min, <= max
+
+- `Minimum` Minimum resource threshold / capacity
+- `Maximum` Maximum resource threshold / capacity
+- `Desired Capacity` Number of instances to launch at start
+  - Must be **less** than the `Maximum`
+  - Must be **greater** than the `Minimum`
 
 ## Elastic Load Balancing
 
@@ -255,3 +258,6 @@ Cerifications and attestations, Laws Regulations and privacy, Alignments and fra
 
 - `AWS Artifact` Compliance reports
 - `AWS Audit Manager` Automate compliance checks
+
+
+[Cookes](https://google.com.au)
