@@ -1,12 +1,9 @@
 # Regions And Zones
 
-Local zones - Close to large population industry centres.
-
-Wavelength zones - Compute, Storage services within 5g networks specifically for low latency.
-
-Direct Connect - direct to AWS bypassing the Internet. locations worldwide
-
-Cloudfront - Webservice like a CDN edge locations and regional edge caches speeds up content delivery regional edge caches.
+`Local zones` - Close to large population industry centres.
+`Wavelength zones` - Compute, Storage services within 5g networks specifically for low latency.
+`Direct Connect` - direct to AWS bypassing the Internet. locations worldwide
+`Cloudfront` - Webservice like a CDN edge locations and regional edge caches speeds up content delivery regional edge caches.
 
 # Compute Services
 
@@ -123,21 +120,21 @@ ELB can handle encryption
 - `Amazon S3 Standard-IA:` infrequently accessed data, lower per GB storage price and lower per GB retrieval fee. multi zone 99.9% availability
 - `Amazon S3 One Zone-IA`: infrequently accessed data, lower per GB storage price and lower per GB retrieval fee. single zone 99% availability, secondary backup data.
 - `Amazon S3 Glacier`: archival data, low cost,  99.9% availability
-  - `Amazon S3 Glacier` Instant: archival data, low cost, 1-5 minutes retrieval time
-  - `Amazon S3 Glacier` Flexible: archival data, low cost
-  - `Amazon S3 Glacier` Deep Archive: archival data, lowest cost
+  - `Amazon S3 Glacier Instant`: archival data, low cost, 1-5 minutes retrieval time
+  - `Amazon S3 Glacier Flexible`: archival data, low cost
+  - `Amazon S3 Glacier Deep Archive`: Archival data, lowest cost
 - `Amazon S3 Intelligent` Tiering: automatically moves data between S3 Standard and S3 Standard-IA based on access patterns.
 
-### Storage Summary and definitions
+### Storage definitions
 
 > `11-9s`: 99.999999999%  
 > `4-9s`: 99.99%  
-> `EBS`: Amazon Elastic Block Store, persistant block storage volumes for use with EC2 instances.  
+> `EBS`: Amazon Elastic Block Store
 > `S3`: Simple Storage Service  
 > `S3 Glacier`: Data archiving and backup service  
 > `Storage Gateway`: Hybrid cloud storage service integrated cloud storage with on-site workloads.
 > `EFS`: Elastic File System, File storage for EC2 instances  
-> `FSx`: File System for Windows, File storage for widely used systems
+> `FSx`: File storage for widely used systems
 
 ## Amazon Database Services
 
