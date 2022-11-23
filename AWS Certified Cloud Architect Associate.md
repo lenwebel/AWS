@@ -258,6 +258,3 @@ Cerifications and attestations, Laws Regulations and privacy, Alignments and fra
 
 - `AWS Artifact` Compliance reports
 - `AWS Audit Manager` Automate compliance checks
-
-
-[Cookes](https://google.com.au)
