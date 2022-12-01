@@ -467,3 +467,31 @@ Cerifications and attestations, Laws Regulations and privacy, Alignments and fra
 - Projects over a certain investment level reqire review by AWS partner solutions architect.
 
 
+## AWS Serverless
+
+> No provisioning maintaining and administering servers, AWS handles fault tolerance and scaling
+
+- Compute
+  - `AWS Lambda`
+  - `Lambda@Edge`
+  - `AWS Fargate`
+- Storage
+  - Simple storage service
+  - Elastic File System
+- DataStores
+  - `Amazon DynamoDB`: document store
+  - `Amazon Aurora`: serverless RDS database
+- ApiProxy
+  - API Gateway
+- Application integration
+  - `Amazon SNS` - notification service. `SMS`, `PUB/SUB`, `Mobile push`
+  - `Amazon SQS` - Simple Queue Service, Fully managed message queuing service.
+  - `AWS AppSync` - Scalable GraphQL interface
+  - `Amazon EventBridge` Serverless event bus
+- Ochestration
+  - `AWS Step Functions`, much like power automate, but serverless facilitation of workflows.
+- Analytics
+  - `Amazon Kinesis` - for analysing `streaming` / `realtime` data
+  - `Amazon Athena` - interactive service used for analysing data in `Amazon S3`
+- Developer Tooling - various tools and services
+
